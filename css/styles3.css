@@ -97,6 +97,9 @@ html{
     text-decoration: none;
 }
 
+.nav-link:focus, .nav-link:hover {
+    background-color: rgb(15%, 47%, 75%,0.1);
+}
 
 
 .text__servicios{
