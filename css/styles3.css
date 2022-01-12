@@ -1,9 +1,4 @@
-*{
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 html{
     font-size:62.5%;
 }
@@ -58,7 +53,7 @@ html{
     border-top-color: rgb(15%, 47%, 75%);
     
 }
-.section__main{
+.main__section{
     padding: 1.5rem 1rem;
     width: auto;
     display: flex;
@@ -120,14 +115,14 @@ html{
     justify-content: center;
     flex-direction: column;
 }
-.section__ubicacion{
+.footer__section__ubicacion{
     padding-left: 1.5rem 1rem; 
     display: flex;
     flex-basis: 100%;
     align-items: center;
     justify-content: space-evenly;
 }
-.iframe__ubicacion{
+.footer__iframe__ubicacion{
     display: flex;
     max-height: 20vh;
     border: 0.5rem;
@@ -135,7 +130,7 @@ html{
 
 
 }
-.text__footer{
+.footer__text{
     text-decoration: none;
     padding: 1.5rem 1rem;
     display: flex;
@@ -143,21 +138,21 @@ html{
     font-size: 1.1rem;
     font-family: sans-serif;
 }
-.redes{
+.footer__redes{
     display: flex;
     align-items: center;
     justify-content: space-evenly;;
 }
-.redes__item{
+.footer__redes__item{
     max-height: 10vh;
     padding: 1.5rem 1rem;
     justify-content: flex-end;
 }
-.redes>a{
+.footer__redes>a{
     text-decoration: none;
 }
 
-.titulo__redes{
+.footer__redes__titulo{
     text-decoration: none;
     font-family: sans-serif;
     font-size: 1rem;
