@@ -1,29 +1,26 @@
 .footer{
-    flex-wrap: wrap;
     padding: 1.5rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    max-width: 100%;
     flex-direction: column;
     
     &__section__ubicacion{
         padding-left: 1.5rem 1rem; 
         display: flex;
-        flex-basis: 100%;
         align-items: center;
         justify-content: space-evenly;
+        flex-direction: column;
     }
     &__iframe__ubicacion{
         display: flex;
         max-height: 20vh;
-        border: 0.5rem;
         border-color:rgb(15%, 47%, 75%);
     
     
     }
     &__text{
         text-decoration: none;
-        padding: 1.5rem 1rem;
         display: flex;
         padding-left: 2rem;
         font-size: 1.1rem;
