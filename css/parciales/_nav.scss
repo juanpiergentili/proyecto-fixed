@@ -5,10 +5,8 @@
     &-menu{
         list-style: none;
         text-decoration: none;
-        margin: 0rem 1rem;
-        padding: 1rem 1rem;
+        max-width: 100%;
         display: flex;
-        align-items: center;
     }
     &__item {
         font-family: sans-serif;
