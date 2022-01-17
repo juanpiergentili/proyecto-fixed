@@ -1,9 +1,9 @@
 .section__servicios{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 1.5rem 1rem;
-    max-width: 100%;
+    flex-wrap: wrap;
     &>a{
         text-decoration: none;
     }

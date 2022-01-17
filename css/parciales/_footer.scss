@@ -1,21 +1,19 @@
 .footer{
-    padding: 1.5rem 1rem;
     display: flex;
     align-items: center;
     max-width: 100%;
-    flex-direction: column;
     
     &__section__ubicacion{
         padding-left: 1.5rem 1rem; 
         display: flex;
         align-items: center;
+        max-width: 100%;
         justify-content: space-evenly;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
     &__iframe__ubicacion{
         display: flex;
-        max-height: 20vh;
-        border-color:rgb(15%, 47%, 75%);
+        max-height: 70%;
     
     
     }
