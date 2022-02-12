@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    padding: 1.5rem 1rem;
+    align-items: center;
+
+    &__logo{
+        padding: 1.5rem 1rem;
+        max-height: 15vh;
+        max-width: 70%;      
+    }
+}
